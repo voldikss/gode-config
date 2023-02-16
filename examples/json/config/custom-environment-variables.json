@@ -1,3 +1,5 @@
 {
-  "name": "NAME"
+  "app": {
+    "name": "APP_NAME"
+  }
 }

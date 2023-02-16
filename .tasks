@@ -1,6 +1,6 @@
 # vim:syn=dosini ft=tasks
 [start]
-command=make example-json
+command=make example
 cwd=$(VIM_INIHOME)
 output=terminal
 # silent=1

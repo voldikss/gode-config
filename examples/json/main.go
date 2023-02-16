@@ -6,7 +6,16 @@ import (
 )
 
 func main() {
-	fmt.Println("examples")
+	// fmt.Println("examples json")
 
-    name := config.Get()
+	name, err := config.Get("app.name")
+    if err == nil {
+        fmt.Println(name)
+    }
+
+    var m any
+    config.GetAs("app", &m)
+    fmt.Println(m)
+	// fmt.Println(reflect.TypeOf(name).String())
+	// fmt.Println(len(name.([]interface{})))
 }

@@ -1,4 +1,7 @@
 {
-  "name": "go-config",
+  "app": {
+    "name": "go-config",
+    "version": "0.0.1"
+  },
   "environment": "development"
 }
