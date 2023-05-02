@@ -1,0 +1,27 @@
+# vim:syn=dosini ft=tasks
+[start]
+command=make -s example
+cwd=$(VIM_INIHOME)
+output=terminal
+# silent=1
+focus=1
+notify=echo
+save=2
+
+[example:json]
+command=make example-json
+cwd=$(VIM_INIHOME)
+output=terminal
+# silent=1
+focus=1
+notify=echo
+save=2
+
+[example:yaml]
+command=make example-yaml
+cwd=$(VIM_INIHOME)
+output=terminal
+# silent=1
+focus=1
+notify=echo
+save=2

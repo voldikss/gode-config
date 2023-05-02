@@ -1,0 +1,11 @@
+app:
+  name: "gode-config"
+  version: "0.0.1"
+environment: development
+
+members:
+  list:
+    - name: alan
+      age: 25
+    - name: tam
+      age: 80

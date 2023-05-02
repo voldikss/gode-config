@@ -1,0 +1,7 @@
+{
+  "app": {
+    "name": "gode-config",
+    "version": "0.0.1"
+  },
+  "environment": "development"
+}
